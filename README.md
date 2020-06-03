@@ -7,7 +7,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+git init //初始化local git repository
+git remote add origin [repository name] //local和remote做聯結
+git pull origin gh-pages //把github上的東西抓下來
+rm 不要的東西 //刪除我們不要的東東，也就是github預先幫我們產生的html和css檔
+git add .
+git commit -a
+git branch gh-pages 新增一個local端的分支，叫gh-pages
+git push origin gh-pages push上去github
 ```markdown
 Syntax highlighted code block
 
